@@ -7,11 +7,11 @@ This library provides an easy to use interface to [Walmart's Partner APIs](https
 ## Installation
 It is easiest to use [Composer](https://getcomposer.org/) to install, simply run:
 
-    composer require fillup/walmart-partner-api-sdk-php:^1.0.9
+    composer require caalvinz/walmart-partner-api-sdk-php:^1.0.9
 
 Or add to the ```require``` section of your ```composer.json``` file:
 
-    "fillup/walmart-partner-api-sdk-php": "^1.0.9"
+    "caalvinz/walmart-partner-api-sdk-php": "^1.0.9"
 
 ## Usage Documentation
  See [docs/README.md](docs/README.md)
@@ -65,7 +65,7 @@ Walmart does not assume any responsibilities for its quality or support.
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Phillip Shipley
+Copyright (c) 2018 alvin.z
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -84,3 +84,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+# Thanks
+This version is built based on "fillup/walmart-partner-api-sdk-php".
