@@ -1,0 +1,34 @@
+{
+  "name": "caalvinz/walmart-partner-api-sdk-php",
+  "description": "PHP client for Walmart Partner APIs",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "alvin.z",
+      "email": "alvin.z.ca@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4",
+    "guzzlehttp/guzzle": "^6.3.0",
+    "caalvinz/guzzle-services": "0.5.1",
+    "guzzlehttp/retry-subscriber": "^2.0.2",
+    "caalvinz/walmart-auth-signature-php": "^1.0.3",
+    "caalvinz/array2xml": "^0.5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.24",
+    "satooshi/php-coveralls": "^1.0.1",
+    "silinternational/php-env": "^0.2.0"
+  },
+  "suggest": {
+    "roave/security-advisories": "Make sure you don't install dependencies with known issues. Install dev-master version."
+  },
+  "autoload": {
+    "psr-4": {
+      "Walmart\\": "src/"
+    }
+  }
+}
